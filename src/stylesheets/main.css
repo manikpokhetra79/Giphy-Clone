@@ -18,7 +18,7 @@ nav a:hover {
   color: chartreuse;
 }
 /* trending gif styles */
-.trendingGifs {
+.gifsSection {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -39,4 +39,24 @@ nav a:hover {
 }
 .gifContainer img:hover {
   border: 5px solid chartreuse;
+}
+/* search box section */
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.searchBox input {
+  width: 40vw;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+.searchBox input:focus {
+  border: 2px solid chartreuse;
+}
+.searchBox i{
+  cursor: pointer;
 }

@@ -11,7 +11,6 @@ const TrendingGiphs = () => {
       .then((res) => res.json())
       .then((data) => {
         setGiphs(data.data);
-        // console.log(data);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -20,7 +19,7 @@ const TrendingGiphs = () => {
       <h2 className="t-center heading">
         <i class="fas fa-chart-line color1"></i> Trending Gifs
       </h2>
-      <div className="trendingGifs">
+      <div className="gifsSection">
         {giphs.map((gif) => (
           <Giphs gif={gif} />
         ))}

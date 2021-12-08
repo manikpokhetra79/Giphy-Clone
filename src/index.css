@@ -23,6 +23,16 @@ code {
 .color1 {
   color: #03c8ff;
 }
+.color2 {
+  color: chartreuse;
+}
 .pr1 {
   padding-right: 10px;
+}
+.d-flex {
+  display: flex;
+}
+.da-center {
+  align-items: center;
+  justify-content: center;
 }
